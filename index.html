@@ -93,7 +93,7 @@
 		<dt>Por <em>extensión</em> o <em>Tabular</em></dt>
 		<dd>Se enumeran todos sus elementos</dd>
 	</dl>
-	<p>La cardinalidad de un conjunto es el número de elementos dentro de un conjunto. La cardinalidad se simboliza con la letra "N" mayúscula. Cuando los elementos de un conjunto se pueden contar se dice que es un conjunto finito, en cambio cuando siempre se puede contar al menos un elemento mas se dice que es un conjunto infinito.</p>
+	<p>La cardinalidad de un conjunto es el número de elementos dentro de un conjunto. La cardinalidad se simboliza con la letra "N" mayúscula. Cuando los elementos de un conjunto se pueden contar se dice que es un conjunto finito o conjunto contable, en cambio cuando siempre se puede contar al menos un elemento mas se dice que es un conjunto infinito.</p>
 	<p>Existen diferentes tipos de <strong>conjuntos especiales</strong>. Estos conjuntos son conjuntos con definiciones <!--AHAHAHAHAH-->como:</p>
 	<ul>
 		<li>Conjunto Universal</li>
@@ -158,8 +158,46 @@
 	<h2>Funciones y Relaciones</h2>
 	<h3>Contexto Histórico</h3>
 	<p>Las Relaciones y Funciones aparecieron por primera vez gracias a el filosofo Galileo (1564- 1642) con la ley de caida de los cuerpos. Aunque Galileo uso este concepto, el concepto de función no apareció hasta los inicios del calculo (en el siglo XVII).  Fue el filosofo/matematico Gottfried Leibniz que utilizo por primera vez los términos “función”, “variable”, “constante” y “parámetro”. La notación f (x) fue utilizada por primera vez por A.C. Clairaut en 1736.</p>
-	<h3>Teoría <strong>Funciones y Relaciones</strong></h3>
-</div>
+	<h3>Teoría <strong>Relaciones y Funciones</strong></h3>
+	<p>Nuestro último tema siendo las Relaciones y Funciones se divide en estas dos.</p>
+	<h4>Relaciones</h4>
+	<p>Sean A y B dos conjuntos, una relación R definida del conjunto A
+	al conjunto B es un subconjunto de A x B. Cuando una relación R está definida del conjunto A al conjunto
+	A, es decir, cuando R ⊆ A<sup>2</sup>, se dice simplemente que R está definida sobre A.</p>
+	<p>Una relación puede representarse gráficamente en un sistema de coordenadas cartesiano, mediante de un grafo bipartito o grafo dirigido y mediante una matriz como en la imagen inferior.</p>
+	<!--Agregar graficas tema3matemaricas discretas del dr pag 42-->
+	<p>Dada una relación R de A a B, el <em>dominio</em> y el <em>rango</em> de R están definidos por:</p>
+	<blockquote>Dom R:= {a ∈ A|∃ b ∈ B, (a,b) ∈ R} </blockquote><blockquote>Ran R:= {b ∈ B|∃ a ∈ A, (a,b) ∈ R}</blockquote>
+	<p>Existen dos tipos de relaciones, las relaciones de orden y las relaciones de equivalencia,para poder identificar cada una tenemos que tener en cuenta los siguientes atributos cuando sea R una relación sobre A: </p>
+	<ul>
+		<li><strong>Reflexiva:</strong> si y sólo si para todo a ∈ A, (a,a), ∈ R.</li>
+		<li><strong>Transitiva</strong> si y sólo si se cumple que, si (a,b) ∈ R y (b,c) ∈ R, entonces (a,c) ∈ R.</li>
+		<li><strong>Simétrica</strong> si y sólo si se cumple que, si (a,b) ∈ R, entonces (b,a) ∈ R.</li>
+		<li><strong>Antisimétrica</strong> si y sólo si se cumple que, si (a,b) ∈ R y a ≠ b, entonces (b,a) ∈ R.</li>
+	</ul>
+		<p>Tomando en cuenta esto podemos identificar que tipo de relacion es:</p>
+		<dl>
+			<dt>Relación de Orden</dt>
+			<dd><p>Sea R una relación sobre A, se dice que R es una relación de orden si y sólo si R es reflexiva, transitiva y antisimétrica.</p>
+				<p></p></dd>
+			<dt>Relación de equivalencia</dt>
+			<dd><p>Sea R una relación sobre A, se dice que R es una relación de equivalencia si y sólo si R es reflexiva, transitiva y simétrica. </p>
+				<p>Existen clases de equivalencia cuando R es relación de equivalencia sobre A. Para un elemento a ∈ A se define la clase de equivalencia de a, y se denota [a], como el conjunto de todos los elementos de A que se están relacionados con a.</p></dd>
+		</dl>
+	<h4>Funciones</h4>
+	<p>Sean A y B dos conjuntos. Una función de A en B es una relación <em>f</em> tal que a cada elemento de A se le asigna uno y sólo un elemento de B. Se denota como: <em>f</em> : A → B</p>
+	<p>Se dice que las funciones pueden ser <strong>Inyectivas</strong>, <strong>Suprayectivas</strong> o <strong>Biyectivas</strong>.</p>
+	<ul><li>Se dice que una función f : A → B es <strong>inyectiva</strong> si y sólo si diferentes elementos del dominio tienen diferentes imágenes, esto es:</li></ul>
+	<blockquote>a ≠ b ⇒ <em>f</em> (a) ≠ <em>f</em> (b)</blockquote>
+	<ul><li>Se dice que una función <em>f</em> : A → B es <strong>sobreyectiva</strong> si y sólo si todo b  ∈ B es imagen de algún a ∈ A, esto es:</li></ul>
+	<blockquote>Rango <em>f</em> = B.</blockquote>
+	<ul><li>Se dice que una función <em>f</em> : A → B es <strong>biyectiva</strong> si y sólo si es inyectiva y sobreyectiva.</li></ul>
+	<p>Dado que una función es una relación, la inversa de una función o una relación es la gráfica reflejada sobre un eje de 45°. Aunque para las funciones solo existe su inversa cuadno la función es biyectiva.</p>
+	<img src="">
+	<!--Agregar imagen tema3drmiguel pg 55-->
+
+
+	</div>
 
 </body>
 </html>
