@@ -142,3 +142,15 @@ footer p a{
 
 }
 
+img {
+	border: 3px solid #D5DAE7;
+}
+
+.tamaño {
+	height: 90px;
+	width: auto;
+}
+
+.blanco {
+	color: white;
+}
