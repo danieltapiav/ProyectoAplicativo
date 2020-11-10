@@ -1,0 +1,133 @@
+html{
+	background-color:  #667699;
+
+}
+
+header{
+
+	margin-right: auto;
+	padding-left: 40px;
+	padding-right: 40px;
+	box-sizing: border-box;
+
+}
+header h1 {
+	margin: 0
+}
+
+h1 {
+	color: #2D3340 ;
+	font-size: 250%;
+	border-bottom: 3px solid #D5DAE7;
+}
+
+h2 {
+	color: #394050 ;
+}
+
+h3, h4 {
+	color: #4A5367 ;
+}
+
+strong{
+	color: #394050 ;
+}
+
+body{
+	font-family: Tahoma, sans-serif;
+	font-size: 90%;
+}
+
+.todo {
+	background-color: white;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 40px;
+	padding-right: 40px;
+	box-sizing: border-box;
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+}
+
+.logica{
+	padding-left: 40px;
+	padding-right: 40px;
+	box-sizing: border-box;
+}	
+
+.parte1 {
+	width: 50%;
+	float: left;
+}
+.parte2 {
+	width: 50%;
+	float: left;
+}
+
+.teoria{
+	padding-left: 40px;
+	padding-right: 40px;
+	box-sizing: border-box;
+}	
+.numeros{
+	padding-left: 40px;
+	padding-right: 40px;
+	box-sizing: border-box;
+}	
+.funciones{
+	padding-left: 40px;
+	padding-right: 40px;
+	box-sizing: border-box;
+}	
+
+footer{
+	text-align: center;
+	color: lightgray;
+	background-color: #2C3039;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.final{
+	text-align: right;
+}
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+}
+
+.navigation li{
+	list-style: none;
+	float: left;
+}
+
+.navigation ol{
+	margin:0;
+	padding: 0;
+
+}
+
+.navigation a{
+	display: block;
+	text-decoration: none;
+	color: #2C3039;
+	padding: 10px 25px;
+	border: 3px solid #667699 ;
+}
+
+.navigation a:hover{
+	background-color: #D5DAE7;
+}

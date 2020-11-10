@@ -6,19 +6,22 @@
 	<title>Proyecto Aplicativo</title>
 </head>
 <body>
+<section class="todo">
 	<header>
 		<h1>Proyecto Aplicativo Integrador</h1>
-	</header>
+	
 	<h2>Introducción</h2>
-<fieldset><p>Para este proyecto decidí crear una página web donde cubriré todos los temas vistos en el semestre de Fundamentos de Matemáticas.</p>
-	<ol type="navigation">
+<div class="Intro"></div><p>Para este proyecto decidí crear una página web donde cubriré todos los temas vistos en el semestre de Fundamentos de Matemáticas.</p>
+	<ol type="nav" class="navigation group">
 <!--Añadir anclas y links-->
 		<li> <a href="#logica">Lógica preposicional</a></li>
 		<li> <a href="#teoria">Teoría de Conjutnos</a></li>
 		<li> <a href="#numeros">Números Naturales y Enteros</a></li>
 		<li> <a href="#funciones">Funciones y Relaciones</a></li>
 	</ol>
-</fieldset>
+	</header>
+</div>
+<div class="contenido">
 <div class="logica" id="logica">
 	<h2>Lógica Preposicional</h2>
 	<h3>Contexto Histórico</h3>
@@ -41,6 +44,7 @@
 	</ol>
 	<p>Todas las preposiciones pertenecen por lo menos a una clase. Las diferentes clases de preposiciones son:</p>
 	<dl type="a">
+		<span class="parte1">
 		<dt>Afirmativas</dt>
 		<dd>Afirman el predicado de toda la clase</dd>
 		<dd>Ej: Halloween es el 31 de Octubre</dd>
@@ -53,6 +57,7 @@
 		<dt>Verdaderas</dt>
 		<dd>Corresponden a la realidad</dd>
 		<dd>Ej: Alan Turing nació el  23 de junio de 1912</dd>
+		</span><span class="parte2">
 		<dt>Abiertas</dt>
 		<dd>El sujeto no está definido</dd>
 		<dd>Ej: Ella no conisguió novio hasta ser mayor de edad</dd>
@@ -65,7 +70,7 @@
 		<dt>Compuestas</dt>
 		<dd>Tienen mas de un sujeto, verbo o complemento</dd>
 		<dd>Ej: Mi hermano y Bruno ganaron el concurso.</dd>
-	</dl>
+	</dl></span>
 	<p>En la lógica preposicional los conectivos son clave. Estos permiten la formación de las preposiciones compuestas a partir de las preposiciones simples. Estos términos reciben el nombre de conectivos. Los conectivos son cuatro que se muestran en la siguiente imagen.</p>
 	<img src=""><!--Colocar tabla de conectivos-->
 	<p>La negación es un modicativo que es el adverbio <em>NO</em> y este niega la preposición que acompaña. Su simbolo es: ~. Por ejemplo: ~P, que se lee como No P</p>
@@ -197,13 +202,13 @@
 	<img src="">
 	<!--Agregar imagen tema3drmiguel pg 55-->
 
-
 	</div>
-
+</div>
+</section>
 </body>
 <footer>
 	<p>Autor: Daniel Tapia</p>
-	<p>2020 Regresar al inicio</p>
+	<p>2020 <span class="final">Regresar al inicio</span></p>
 
 </footer>
 </html>
