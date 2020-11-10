@@ -131,3 +131,14 @@ footer{
 .navigation a:hover{
 	background-color: #D5DAE7;
 }
+
+footer p a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding: 10px 25px 0 25px;
+	border: 1px solid white;
+	
+
+}
+
